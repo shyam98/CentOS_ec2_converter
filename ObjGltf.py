@@ -5,10 +5,10 @@ import math
 
 
 # Adjust this for where you have the OBJ files.
-argv = sys.argv
-argv = argv[argv.index("--") + 1:]  # get all args after "--"
-print('arguments=',argv)
-dirpath = argv[0]
+#argv = sys.argv
+#argv = argv[argv.index("--") + 1:]  # get all args after "--"
+#print('arguments=',argv)
+dirpath = '/home/centos/CentOS_ec2_converter/Modern.fbx'
 obj_root = pathlib.Path(dirpath)
 print(obj_root)
 

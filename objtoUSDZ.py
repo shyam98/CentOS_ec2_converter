@@ -3,7 +3,6 @@ import sys
 import pathlib
 import math
 
-bpy.ops.wm.addon_enable(module="io_scene_gltf2")
 # Adjust this for where you have the OBJ files.
 dirpath = input("Folder where obj and mtl files are located: ")
 

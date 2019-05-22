@@ -34,4 +34,4 @@ if dirpath.lower().endswith('.stl'):
     o.active_material = mat
 
 bpy.ops.export_scene.obj(filepath=str(export_name), group_by_material=True)
-bpy.ops.export_scene.gltf(export_format='GLTF_SEPARATE', filepath=str(export_name), group_by_material=True)
+bpy.ops.export_scene.gltf(export_format='GLTF_SEPARATE', filepath=str(export_name))

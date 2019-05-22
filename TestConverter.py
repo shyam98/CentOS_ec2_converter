@@ -3,7 +3,6 @@ from subprocess import call
 import os
 import subprocess
 import requests
-import imageio
 import sys
 import time
 

@@ -7,12 +7,8 @@ import sys
 import time
 
 
-input_filepath = '~/home/centos/CentOS_ec2_converter/Modern.fbx'
+cmd_fbx_gltf = "/home/centos/blender-2.8/blender -b --python ObjGltf.py"
+os.system(cmd_fbx_gltf)
 
-print("convert_stl_fbx_to_obj:Calling blender to convert stl/fbx file:" + input_filepath)
-
-cmdline = "/home/centos/blender-2.8/blender -b --python ObjGltf.py -- {0}" \
-    .format(input_filepath)
-print("convert_stl_fbx_to_obj: blender command: " + cmdline)
-
-os.system(cmdline)
+cmd_gltf_usdz = "python /home/gltf2usd/Source/gltf2usd.py -g /home/centos/CentOS_ec2_converter/Modern.gltf -o /home/centos/CentOS_ec2_converter/Modern.usdz"
+os.system(cmd_gltf_usdz)

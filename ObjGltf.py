@@ -13,7 +13,7 @@ obj_root = pathlib.Path(dirpath)
 print(obj_root)
 
 export_name_obj = str(obj_root)[:-4] + '.obj'
-export_name_gltf = str(obj_root)[:-4] + 'gltf'
+export_name_gltf = str(obj_root)[:-4] + '.gltf'
 # Before we start, make sure nothing is selected. The importer will select
 # imported objects, which allows us to delete them after rendering.
 #render = bpy.context.scene.renders

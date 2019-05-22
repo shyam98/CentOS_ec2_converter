@@ -7,7 +7,7 @@ import sys
 import time
 
 
-input_filepath = '~/home/centos/CentOS_ec2_converter/modern.fbx'
+input_filepath = '~/home/centos/CentOS_ec2_converter/Modern.fbx'
 
 print("convert_stl_fbx_to_obj:Calling blender to convert stl/fbx file:" + input_filepath)
 

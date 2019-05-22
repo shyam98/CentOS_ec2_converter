@@ -8,7 +8,7 @@ import sys
 import time
 
 
-input_filepath = /home/centos/CentOS_ec2_converter/modern.fbx
+input_filepath = ~/home/centos/CentOS_ec2_converter/modern.fbx
 
 convert_stl_fbx_to_obj_gltf(input_filepath)
 
